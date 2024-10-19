@@ -1,8 +1,5 @@
 <script setup lang="ts">
 import config from '@doke-config'
-import { Icon } from '@iconify/vue'
-import { ref } from 'vue'
-import BottomMenu from './BottomMenu.vue'
 import SettingsMenu from './SettingsMenu.vue'
 </script>
 

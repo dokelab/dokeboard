@@ -8,9 +8,9 @@ const theme = useLocalStorage('dokeboard-theme', 'casper')
 const themes = {
   casper: 'Casper',
   laramie: 'Laramie',
-}
+} as const
 
-const currentTheme = computed(() => theme.value)
+const currentTheme = computed(() => theme.value as keyof typeof themes)
 
 function setTheme(newTheme: string) {
   theme.value = newTheme

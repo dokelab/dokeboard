@@ -9,7 +9,7 @@ defineProps<{
 
 <template>
   <section class="collapse collapse-arrow bg-base-200">
-    <input type="checkbox" :name="`accordion-${group.name}`" checked="checked">
+    <input type="checkbox" :name="`accordion-${group.name}`" :checked="true">
     <div class="collapse-title text-xl font-bold">
       {{ group.name }}
     </div>

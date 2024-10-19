@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
 import { useLocalStorage } from '@vueuse/core'
-import { ref } from 'vue'
 import ThemeDropdown from './ThemeDropdown.vue'
 
 // Link mode toggle
